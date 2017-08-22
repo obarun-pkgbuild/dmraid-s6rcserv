@@ -1,5 +1,0 @@
-post_install() {
-	echo "	>> Create directory for log on /var/log/s6rc/dmraid" 
-	mkdir -p -m 0755 /var/log/s6rc/dmraid
-	chown -R s6log:log /var/log/s6rc/dmraid 
-}
